@@ -10668,7 +10668,7 @@ a.text-dark:focus {
   text-align: center;
 }
 
-strong {
+.counters strong {
   display: block;
   font-size: 2em;
 }
