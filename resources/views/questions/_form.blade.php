@@ -13,10 +13,10 @@
         <label for="question-body">Explain you Question</label>
         <textarea  name="body" id="question-body" rows="10" class="form-control  {{$errors->has('bodych') ? 'is-invalid':' '}}">{{ old('body', $question->body) }}</textarea>
         @if ($errors->has('body'))
-        <div class="invalid-feedback">
-        <strong>{{ $errors->first('body')}}</strong>
-        </div>
-    @endif
+            <div class="invalid-feedback">
+            <strong>{{ $errors->first('body')}}</strong>
+            </div>
+        @endif
 </div>
 <div class="form-group">
 <button type="submit" class="btn btn-outline-primary btn-lg">{{ $buttonText }}</button>  
