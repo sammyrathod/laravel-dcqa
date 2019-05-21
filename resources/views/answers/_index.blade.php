@@ -40,17 +40,15 @@
                                 <div class="col-4">
                                 </div>
                                 <div class="col-4">
-                                    <div class="float-right">
-                                        <span class="test-muted"> Answered {{ $answer->answers_count }}</span>
-                                        <div class="media mt-2">
-                                            <a href="{{ $answer->user->url }}" class="pr-3">
-                                                <img src="{{ $answer->user->avatar }}" >
-                                            </a>
-                                            <div class="media-body mt-1">
-                                                <a href="{{ $answer->user->url}}" >{{ $answer->user->name }}</a>
-                                            </div>
-                                        </div> 
-                                    </div>                
+                                    <span class="test-muted"> Answered {{ $answer->answers_count }}</span>
+                                    <div class="media mt-2">
+                                        <a href="{{ $answer->user->url }}" class="pr-3">
+                                            <img src="{{ $answer->user->avatar }}" >
+                                        </a>
+                                        <div class="media-body mt-1">
+                                            <a href="{{ $answer->user->url}}" >{{ $answer->user->name }}</a>
+                                        </div>
+                                    </div>                 
                                 </div>
                             </div>
                         </div>
